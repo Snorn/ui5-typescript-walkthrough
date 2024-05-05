@@ -18,7 +18,7 @@ To download the solution for this step as a zip file, just choose the link here:
 
 ### Coding
 
-### webapp/controller/InvoiceList.controller.js \(New\)
+### webapp/controller/InvoiceList.controller.ts \(New\)
 
 We want to display in our list view the price in Euro, and typically the currency is part of our data model on the back end. In our case this is not the case, so we need to define it directly in the app. We therefore create a controller for the invoice list and define a view model for the currency code for Euro. It is a simple JSON model with just one key `currency` and the value `EUR`.
 
